@@ -15,9 +15,22 @@
             <button id="botoniniciar">Empezar juego</button>
         </div>
 
-        <div id="image">
-            <img src="./img-ahorcado-main/01.jpeg" alt="Imgahorcado" class="imgahorcado">
+        <div id="containerahorcado">
+            <img src="./ahorcado-main/01.jpeg" alt="Imgahorcado" id="imgahorcado">
+        </div>
+
+        <div id="contenedorLetra" style="display: none;">
+            <label for="inputLetra"> Ingresa una letra</label>
+            <input type="text" id="inputLetra" maxlength="1">
+        </div>
+
+        <div id="mensajes">
+            <ul id="errores"></ul>
+            <ul id="nIntentos"></ul>
+            <ul id="pAdivinar"></ul>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
